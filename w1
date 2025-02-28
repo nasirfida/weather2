@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="forecast.css" />
+  </head>
+  <body>
+    <div class="forecast-container">
+      <header class="header">
+        <h1>10-Day Weather Forecast</h1>
+      </header>
+      <section class="forecast-list">
+        <!-- Forecast Card for Today -->
+        <div class="forecast-card">
+          <div class="day">Today</div>
+          <div class="weather-info">
+            <div class="icon sunny"></div>
+            <div class="temp-range">39°C / 26°C</div>
+          </div>
+        </div>
+        <!-- Forecast Card for Friday -->
+        <div class="forecast-card">
+          <div class="day">Friday</div>
+          <div class="weather-info">
+            <div class="icon cloudy"></div>
+            <div class="temp-range">36°C / 24°C</div>
+          </div>
+        </div>
+        <!-- Repeat similar blocks for other days... -->
+      </section>
+    </div>
+  </body>
+</html>
